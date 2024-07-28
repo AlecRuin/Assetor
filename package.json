@@ -1,0 +1,20 @@
+{
+  "name": "assetor",
+  "version": "1.0.0",
+  "description": "An app that will find missing assets referenced in .py files",
+  "main": "src/js/electron/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "nodemon": "nodemon --ext js,html,css --watch . --exec npm start"
+  },
+  "author": "Katlec Valentine",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  }
+}
